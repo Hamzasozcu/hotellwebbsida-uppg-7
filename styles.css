@@ -1,11 +1,12 @@
 body{
-    font-family:"girassol", serif ;
+    font-family:"merriweather";
     background-image: url(./img/argyle.png);
     background-color: rgb(185, 0, 0);
+    font-size: 15px;
   
 }
 h1,h2,h3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:"merriweather";
  
 }
 
@@ -20,15 +21,17 @@ nav a {
 }
 
 header img#logo {
-   width: 17.5%;
-   height: 67px;
+    object-fit: unset;
+   width: 20vw;
+  /* height: 40px;*/
    margin-right: 2%;
 
 }
-header img#room3 {
-    width: 75%;
-    height: 80px;
-    border-radius: 15px;
+header img#header {
+    object-fit:cover;
+    height: 100px;
+    width: 70vw;
+    border-radius: 10px;
 }
 
 footer{
@@ -37,14 +40,14 @@ footer{
 }
 
 .topnav{
-    background-color: rgb(254, 135, 0);
+    background-color: rgb(242, 129, 0);
     overflow:hidden;
 }
 
 .topnav a { 
     float: left;
     display: block;
-    color: rgb(255, 149, 0);
+    color: rgb(255, 242, 0);
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
@@ -53,12 +56,12 @@ footer{
 
 .topnav a:hover {
     background-color: orange;
-    color: red;
+    color: rgb(227, 0, 0);
 }
 
 .active {
-    background-color: rgb(78, 0, 0) ;
-    color: rgb(255, 144, 8);
+    background-color: rgb(68, 14, 14) ;
+    color: rgb(255, 119, 8);
 }
 
 .topnav .icon {
@@ -117,7 +120,7 @@ input[type=text], select, textarea{
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #e70000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -161,6 +164,11 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
+
+li #Instagram, #Facebook{
+    font-size: 18px;
+  }
+
 /*
 .s1{
     display: flex;
